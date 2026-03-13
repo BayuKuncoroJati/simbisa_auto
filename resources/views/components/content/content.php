@@ -93,7 +93,7 @@ new class extends Component
                     ->lockForUpdate()
                     ->count();
 
-                if ($jumlah >= 5) {
+                if ($jumlah >= 3) {
                     throw new \Exception('Slot pada jam ini sudah penuh.');
                 }
 

@@ -378,7 +378,7 @@
                 @if (session()->has('success'))
                     <div class="alert alert-success" role="alert">
                         Jadwal servis anda berhasil dibuat. Silahkan menunggu konfirmasi selanjutnya dari admin!
-                        <span>Halaman ini akan di refresh dalam<b>5</b>detik,</span>
+                        <span>Halaman ini akan di refresh dalam <b>5</b> detik,</span>
                     </div>
                 @endif
                 @if (session('error'))
