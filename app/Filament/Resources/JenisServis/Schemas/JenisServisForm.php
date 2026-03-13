@@ -15,7 +15,8 @@ class JenisServisForm
                 TextInput::make('nama_servis')
                 ->required()
                 ->maxLength(100),
-                Textarea::make('deskripsi_servis')->nullable(),
+                Textarea::make('deskripsi_servis')
+                ->required(),
             ]);
     }
 }
